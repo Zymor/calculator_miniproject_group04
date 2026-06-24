@@ -32,6 +32,14 @@ public class Memory {
     }
     
     public void main(String[] arg){
+        Memory m1 = new Memory();
+        Memory m2 = new Memory();
+
+        m1.set_first_variable("5");
+        m2.set_second_variable("5");
+
+        System.out.println(m1.get_first_variable());
+        System.out.println(m2.get_second_variable());
         
     }
     
