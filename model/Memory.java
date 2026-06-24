@@ -14,7 +14,7 @@ public class Memory {
         return get_first_variable();
 
     } 
-    public String void set_operator(String operator){
+    public void set_operator(String operator){
         Memory.operator = operator;
 
     } 
@@ -22,24 +22,21 @@ public class Memory {
         return get_operator();
 
     } 
-    public String void set_second_variable(String second_variable){
+    public void set_second_variable(String second_variable){
         Memory.second_variable = second_variable;
 
     } 
     public String get_second_variable(){
-        return get_second_variable();
+        return Memory.second_variable;
 
     }
     
-    public void main(String[] arg){
+    public static void main(String[] args){
         Memory m1 = new Memory();
-        Memory m2 = new Memory();
 
         m1.set_first_variable("5");
-        m2.set_second_variable("5");
 
         System.out.println(m1.get_first_variable());
-        System.out.println(m2.get_second_variable());
         
     }
     

@@ -62,7 +62,8 @@ public class Controller {
 
     @FXML
     void On_one(ActionEvent event) {
-
+            user_input.set_one();
+            Label_screen.setText(user_input.get_variable());
     }
 
     @FXML
