@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <Button layoutX="52.0" layoutY="401.0" mnemonicParsing="false" onAction="#On_one" text="1">
@@ -98,7 +97,7 @@
             <Font size="23.0" />
          </font>
       </Button>
-      <Button layoutX="128.0" layoutY="198.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="128.0" layoutY="198.0" mnemonicParsing="false" onAction="#On_shift" text="&lt;">
          <font>
             <Font size="23.0" />
          </font>

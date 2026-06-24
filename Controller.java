@@ -81,6 +81,11 @@ public class Controller {
     }
 
     @FXML
+    void On_shift(ActionEvent event) {
+
+    }
+
+    @FXML
     void On_six(ActionEvent event) {
 
     }
