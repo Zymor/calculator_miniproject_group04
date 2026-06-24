@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx.base.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx.controls.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx.fxml.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx.graphics.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx.media.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx.swing.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx.web.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\javafx-swt.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\jdk.jsobject.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\jfx.incubator.input.jar",
+        "c:\\Users\\Reatanak\\OneDrive\\Desktop\\Extra\\Extra\\javafx_sdk\\lib\\jfx.incubator.richtext.jar"
+    ]
+}
