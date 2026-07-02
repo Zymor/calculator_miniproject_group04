@@ -87,9 +87,9 @@
             <Font size="48.0" />
          </font>
       </Label>
-      <Label layoutX="107.0" layoutY="73.0" prefHeight="47.0" prefWidth="158.0" text="Calculator">
+      <Label layoutX="68.0" layoutY="70.0" prefHeight="70.0" prefWidth="268.0" text="Calculator">
          <font>
-            <Font size="32.0" />
+            <Font size="48.0" />
          </font>
       </Label>
       <Button layoutX="201.0" layoutY="198.0" mnemonicParsing="false" onAction="#on_divide" text="/">
@@ -107,7 +107,7 @@
             <Font size="23.0" />
          </font>
       </Button>
-      <Label layoutX="131.0" layoutY="26.0" prefHeight="47.0" prefWidth="158.0" text="Project 1">
+      <Label layoutX="111.0" layoutY="35.0" prefHeight="47.0" prefWidth="158.0" text="Mini_Project">
          <font>
             <Font size="24.0" />
          </font>
