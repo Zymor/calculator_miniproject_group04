@@ -1,73 +1,79 @@
 package model;
 
-public class User_input {
+public class User_Input {
 
-    String variable = "";
-    void set_zero(){
-        variable = variable + "0";
+  String variable = "";
 
-    }
+  public void set_zero() {
+    variable = variable + "0";
+  }
 
-    void set_one(){
-        variable = variable + "1";
+  public void set_one() {
+    variable = variable + "1";
+  }
 
-    }
-    void set_two(){
-        variable = variable + "2";
+  public void set_two() {
+    variable = variable + "2";
+  }
 
-    }
-    void set_three(){
-        variable = variable + "3";
+  public void set_three() {
+    variable = variable + "3";
+  }
 
-    }
-    void set_four(){
-        variable = variable + "4";
+  public void set_four() {
+    variable = variable + "4";
+  }
 
-    }
-    void set_five(){
-        variable = variable + "5";
+  public void set_five() {
+    variable = variable + "5";
+  }
 
-    }
-    void set_six(){
-        variable = variable + "6";
+  public void set_six() {
+    variable = variable + "6";
+  }
 
-    }
-    void set_seven(){
-        variable = variable + "7";
+  public void set_seven() {
+    variable = variable + "7";
+  }
 
-    }
-    void set_eight(){
-        variable = variable + "8";
+  public void set_eight() {
+    variable = variable + "8";
+  }
 
-    }
-    void set_nign(){
-        variable = variable + "9";
+  public void set_nine() {
+    variable = variable + "9";
+  }
 
-    }
-    void set_point(){
-        variable = variable + ".";
+  public void set_dot() {
+    variable = variable + ".";
+  }
 
-    }
-    void set_minus(){
-        variable = variable + "-";
+  public void set_variable(String variable) {
+    this.variable = variable;
+  }
 
-    }
-    void set_plus(){
-        variable = variable + "+";
+  public String get_variable() {
+    return variable;
+  }
 
-    }
-    void set_dive(){
-        variable = variable + "/";
+  public static void main(String[] args) {
+    User_Input input = new User_Input();
 
-    }
-    void set_multiple(){
-        variable = variable + "*";
+    input.set_zero();
+    input.set_one();
+    input.set_two();
+    input.set_dot();
+    input.set_three();
+    input.set_dot();
+    input.set_four();
 
-    }
+    System.out.println(input.get_variable());
 
-    public static void main(String[] args){
+    Memory m = new Memory();
+    m.set_first_variable(input.get_variable());
 
-    User_input.set_one();
+    System.out.println(m.get_first_variable());
 
-    }
+  }
+
 }
