@@ -124,5 +124,6 @@
             <Image url="@Photo/Logo-GTR-JPG.jpg" />
          </image>
       </ImageView>
+      <Label layoutX="31.0" layoutY="130.0" prefHeight="50.0" prefWidth="312.0" />
    </children>
 </Pane>
