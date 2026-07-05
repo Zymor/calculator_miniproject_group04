@@ -1,5 +1,5 @@
 package model;
-//Phaleng
+
 public class Result_V1 {
 
   public double calculate(double first, double second, String operator) {

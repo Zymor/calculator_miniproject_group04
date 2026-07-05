@@ -1,5 +1,5 @@
 package model;
-//yun
+
 public class Result_V2 {
 
   public String compute(String first, String second, String operator) {

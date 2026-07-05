@@ -1,5 +1,5 @@
 package model;
-//DAVY
+
 public class Operator {
 
   public boolean isValid(String operator) {

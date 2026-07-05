@@ -1,6 +1,5 @@
 package model;
 
-//phannang
 public class Shift {
     public int shiftLeft(int number, int bits) {
         return number << bits;
@@ -10,3 +9,4 @@ public class Shift {
         return number >> bits;
     }
 }
+    
