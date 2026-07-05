@@ -40,7 +40,7 @@ public class Validation {
     return true;
   }
 
-  String format_variable(String variable) {
+  public String format_variable(String variable) {
 
     if (is_variable_valid(variable)) {
       return variable;

@@ -30,16 +30,4 @@ public class Memory {
     return second_variable;
   }
 
-  public static void main(String[] args) {
-
-    Memory m1 = new Memory();
-    Memory m2 = new Memory();
-
-    m1.set_first_variable("5");
-
-    System.out.println(m1.get_first_variable());
-    System.out.println(m2.get_first_variable());
-
-  }
-
 }

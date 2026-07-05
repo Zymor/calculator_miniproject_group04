@@ -5,6 +5,13 @@ public class User_Input {
   String variable = "";
 
   public void set_zero() {
+    if (variable == null || variable.isEmpty()) {
+      variable = "0";
+      return;
+    }
+    if (variable.equals("0")) {
+      return;
+    }
     variable = variable + "0";
   }
 
