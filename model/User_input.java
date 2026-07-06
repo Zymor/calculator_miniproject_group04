@@ -52,6 +52,13 @@ public class User_Input {
   }
 
   public void set_dot() {
+    if (variable == null) {
+      variable = ".";
+      return;
+    }
+    if (variable.contains(".")) {
+      return;
+    }
     variable = variable + ".";
   }
 
@@ -63,24 +70,6 @@ public class User_Input {
     return variable;
   }
 
-  public static void main(String[] args) {
-    User_Input input = new User_Input();
-
-    input.set_zero();
-    input.set_one();
-    input.set_two();
-    input.set_dot();
-    input.set_three();
-    input.set_dot();
-    input.set_four();
-
-    System.out.println(input.get_variable());
-
-    Memory m = new Memory();
-    m.set_first_variable(input.get_variable());
-
-    System.out.println(m.get_first_variable());
-
-  }
+ 
 
 }

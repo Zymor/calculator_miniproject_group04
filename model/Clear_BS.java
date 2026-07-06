@@ -30,20 +30,5 @@ public class Clear_BS {
     return variable;
   }
 
-  public static void main(String[] args) {
-
-    Clear_BS cb = new Clear_BS("12345.6789");
-    System.out.println(cb.get_variable());
-
-    cb.set_backspace();
-    System.out.println(cb.get_variable());
-
-    cb.set_backspace();
-    System.out.println(cb.get_variable());
-
-    cb.set_clear();
-    System.out.println(cb.get_variable());
-
-  }
 
 }

@@ -141,7 +141,10 @@ public class CalculatorController {
   private void setOperator(String operator) {
     String current = validation.format_variable(user_input.get_variable());
     if (current == null || current.isEmpty()) {
-      return;
+      current = memory.get_first_variable();
+    }
+    if (current == null || current.isEmpty()) {
+      current = "0";
     }
     memory.set_first_variable(current);
     memory.set_operator(operator);

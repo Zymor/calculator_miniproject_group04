@@ -27,13 +27,17 @@ public class Validation {
   }
 
   boolean is_operator_valid(String operator) {
+    if (operator == null) {
+      return false;
+    }
+
     // condition 1: operator length is greater than 1
     if (operator.length() > 1) {
       return false;
     }
 
     // condition 2: operator is one of the following: +, -, *, /
-    if (operator != "+" && operator != "-" && operator != "*" && operator != "/") {
+    if (!"+".equals(operator) && !"-".equals(operator) && !"*".equals(operator) && !"/".equals(operator)) {
       return false;
     }
 
@@ -41,41 +45,26 @@ public class Validation {
   }
 
   public String format_variable(String variable) {
+    if (variable == null || variable.isEmpty()) {
+      return "";
+    }
 
     if (is_variable_valid(variable)) {
       return variable;
     }
 
-    int cout = 0;
-    String new_variable = "";
+    int count = 0;
+    StringBuilder cleaned = new StringBuilder();
     for (int i = 0; i < variable.length(); i++) {
-      if (variable.charAt(i) == '.') {
-        cout++;
+      char ch = variable.charAt(i);
+      if (ch == '.') {
+        count++;
       }
-      if (cout <= 1) {
-        new_variable = new_variable + variable.charAt(i);
+      if (count <= 1) {
+        cleaned.append(ch);
       }
     }
 
-    return new_variable;
+    return cleaned.toString();
   }
-
-  String format_operator(String operator) {
-
-    if (is_operator_valid(operator)) {
-      return operator;
-    }
-
-    return "";
-  }
-
-  public static void main(String[] args) {
-    Validation v = new Validation();
-
-    String variable = "123.4569999";
-
-    System.out.println(v.format_variable(variable));
-
-  }
-
 }
